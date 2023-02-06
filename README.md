@@ -162,7 +162,6 @@ A-flight service providers should have access only to the specific server that h
 control in the airport authority network 
 not to any other systems.
 B-the Other that the guest users should not have access to the other department
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB-
 #APPLIED ON THE MAIN ROUTE THAT CONNECTS ALL TO THE INTERNET:
 en 
 conf t
@@ -173,7 +172,6 @@ interface fastethernet 0/0.3
 ip access-group 104 in or ip access-group 104 inbound
 #the last means that this fast ethernrt should be applied on it those restrictions
 exit
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-
 #We start from the specific then the general 
 MOHEMMM:
 ----------------------------------
